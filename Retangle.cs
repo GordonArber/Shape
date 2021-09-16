@@ -1,7 +1,7 @@
 ﻿namespace Shape
 {
-    public class Retangle
+    public class Retangle : Shape
     {
-        
+        protected double Side1, Side2;
     }
 }

@@ -2,11 +2,23 @@
 
 namespace Shape
 {
-    class Program
+    public class Shape
     {
-        static void Main(string[] args)
+        protected Location C;
+        
+        public string ToString()
         {
-            Console.WriteLine("Hello World!");
+            return string.Empty;
+        }
+
+        public double Area()
+        {
+            return 0.0;
+        }
+        
+        public double Perimeter()
+        {
+            return 0.0;
         }
     }
 }

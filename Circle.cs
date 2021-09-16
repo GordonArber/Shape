@@ -1,7 +1,7 @@
 ﻿namespace Shape
 {
-    public class Circle
+    public class Circle : Shape
     {
-        
+        protected double Radius;
     }
 }
